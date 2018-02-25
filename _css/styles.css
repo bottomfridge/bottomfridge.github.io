@@ -1,11 +1,3 @@
-/* Color Palette
-#0A122A - Rich Black (blueish black)
-#DCDCDD - Gainsboro - Lightest grey
-#C5C3C6 - Lavender Grey - Medium grey
-#275DAD - Lapis Lazuli - OKC blue
-#5B616A - Black Coral - Darkest of the greys
-*/
-
 /* Border Box Fix */
 
 html {
@@ -30,7 +22,7 @@ a {
 /* Header and Footer Styles */
 
 header, footer {
-  background-color: #222022;/*Blueish Black*/
+  background-color: #222022;
   color: #6ead3a;
 }
 
@@ -160,7 +152,7 @@ h2 {
 /* Work Experience Styles */
 
 .work {
-  background-color: #4c4947;/*OKC Blue*/
+  background-color: #4c4947;
   color: #ceccce;
 }
 
@@ -180,7 +172,7 @@ ul {
 /* Education Styles */
 
 .education {
-  background-color: #ceccce; /*Darkest Grey*/
+  background-color: #ceccce;
   color: #222022;
 }
 
