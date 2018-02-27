@@ -21,6 +21,9 @@ a {
 
 /* Header and Footer Styles */
 
+header {
+  padding-top: 50px;
+}
 header, footer {
   background-color: #222022;
   color: #6ead3a;
@@ -56,22 +59,31 @@ footer {
   color: #ceccce;
 }
 
-/* #header {
-  display: table;
-} */
+/*Nav Styles */
+nav {
+  text-align: center;
+  width: 100%;
+  background-color: #6ead3a;
+  position: fixed;
+  top: 0px;
+  z-index: 500
+}
 
-
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 /* Header Content Styles */
 
 .profile-img-file {
   width: 300px;
   border-radius: 50%;
-  float: left;
-  display: block;
-
 }
 
-.profile-img {
+.profile-img-holder {
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -79,7 +91,10 @@ footer {
   float: left;
   margin-right: 30px;
 }
-.profile-img:before {
+
+/* Hover Animation */
+
+.profile-img-holder:before {
   content: "";
   display: block;
   position: absolute;
@@ -92,7 +107,7 @@ footer {
   opacity: 0;
   transition: opacity .3s ease-out;
 }
-.profile-img:hover:before {
+.profile-img-holder:hover:before {
   background: rgba(110,173,58, 0.5);
   text-align: center;
   vertical-align: middle;
@@ -101,21 +116,27 @@ footer {
   content: "FUCKFUCKFUCKFUCKFUCK";
 }
 
-.testimg {
-  position: relative;
-  height: 300px;
-  left: 0;
-  top: 0;
-  max-width: 60%;
-  display: table;
-}
 
-.profileimg:after {
+
+/* Float Clear for Display Pic */
+
+.profile-img-holder:after {
     content: "";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
+ }
+
+/* Header Content Position */
+
+ .header-text-align {
+   position: relative;
+   height: 300px;
+   left: 0;
+   top: 0;
+   max-width: 60%;
+   display: table;
  }
 .header-text {
   display:table-cell;
@@ -136,7 +157,7 @@ h2 {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: auto;
 }
 
