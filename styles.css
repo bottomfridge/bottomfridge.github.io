@@ -1,0 +1,341 @@
+/* Border Box Fix */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Global Styles */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #DCDCDD;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header and Footer Styles */
+
+header {
+  padding-top: 50px;
+}
+header, footer {
+  background-color: #222022;
+  color: #6ead3a;
+}
+
+header h1, header h2 {
+  color: #efedef;
+  margin: 0;
+}
+
+header h1 {
+  font-family: 'Forum', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+header h2 {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+header p {
+  font-size: 1.5em;
+  text-transform: lowercase;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 0;
+  color: #ceccce;
+}
+
+/*Nav Styles */
+nav {
+  text-align: center;
+  width: 100%;
+  background-color: #6ead3a;
+  position: fixed;
+  top: 0px;
+  z-index: 500
+}
+
+nav a {
+  color: #efedef;
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+}
+/* Header Content Styles */
+
+@media (min-width: 600px) {
+
+.profile-img-file {
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+
+.profile-img-holder {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position:relative;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Hover Animation */
+
+.profile-img-holder:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity .3s ease-out;
+}
+.profile-img-holder:hover:before {
+  background: rgba(110,173,58, 0.5);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  opacity: 1;
+  content: "FUCKFUCKFUCKFUCKFUCK";
+}
+
+
+
+/* Float Clear for Display Pic */
+
+.profile-img-holder:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+ }
+
+
+/* Header Content Position */
+
+ .header-text-align {
+   position: relative;
+   height: 300px;
+   left: 0;
+   top: 0;
+   max-width: 60%;
+   display: table;
+ }
+.header-text {
+  display:table-cell;
+  vertical-align: middle;
+}
+
+}
+@media (max-width: 600px) {
+  :target:before {
+  content:"";
+  display:block;
+  height:90px; /* fixed header height*/
+  margin:-90px 0 0; /* negative fixed header height */
+  }
+
+  .profile-img-file {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .profile-img-holder {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 60px;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+  .header-text-align {
+    min-width: 100%;
+  }
+
+  .content-wrap {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+.mobile-job-title {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.mobile-paragraphs {
+  padding-left: 5px;
+}
+  .additional-duties-list {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+  }
+
+  .content-wrap h2:first-of-type {
+    text-align: center;
+  }
+
+  .work {
+    background-color: #4c4947;
+    color: #ceccce;
+  }
+
+
+
+
+  .list {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 30px;
+    text-align: right;
+    padding-right: 5px;
+
+  }
+
+  .mobile-degree {
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+
+}
+/* Main Content General */
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+@media (min-width: 600px) {
+  .content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+  }
+
+  .col-wide {
+    width: 70%;
+    float: left;
+    text-align: right;
+  }
+
+  .col-wide.edu {
+    text-align: justify;
+    text-align-last: start;
+  }
+
+  .col-narrow {
+    vertical-align: top;
+    width: 30%;
+    float: left;
+  }
+
+  .col-narrow h3 {
+    margin-top: 0;
+  }
+
+  #last-job-entry {
+    padding-bottom: 0;
+  }
+
+.additional-duties-list {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+/* Work Experience Styles */
+
+.work {
+  background-color: #4c4947;
+  color: #ceccce;
+}
+
+
+
+.list {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+}
+
+/* Education Styles */
+
+.education {
+  background-color: #ceccce;
+  background: linear-gradient(rgba(76, 73, 71, 0.9), rgba(34, 32, 34, 0.9)), url("../_images/education-background.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  color: #ceccce;
+
+
+}
+
+
+
+/* Footer Links */
+
+.contact-info a {
+  display: inline-block;
+  background-color: #6ead3a;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin-right: 3px;
+  margin-top: 3px;
+  width: 140px;
+  color: #222022;
+}
+
+.contact-info a:hover {
+    background-color: #222022;
+    color: #ceccce;
+}
+
+#facebook {
+  margin-right: 0;
+}
+
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
