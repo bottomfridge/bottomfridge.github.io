@@ -77,6 +77,10 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+ul {
+  list-style-type: none;
+}
 /* Header Content Styles */
 
 @media (min-width: 600px) {
@@ -151,6 +155,12 @@ nav a {
 
 }
 @media (max-width: 600px) {
+  :target:before {
+  content:"";
+  display:block;
+  height:90px; /* fixed header height*/
+  margin:-90px 0 0; /* negative fixed header height */
+  }
 
   .profile-img-file {
     width: auto;
@@ -191,10 +201,37 @@ nav a {
 }
   .additional-duties-list {
     text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
   }
+
   .content-wrap h2:first-of-type {
     text-align: center;
   }
+
+  .work {
+    background-color: #4c4947;
+    color: #ceccce;
+  }
+
+
+
+
+  .list {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 30px;
+    text-align: right;
+    padding-right: 5px;
+
+  }
+
+  .mobile-degree {
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+
+
 }
 
 
@@ -240,10 +277,13 @@ h2 {
 #last-job-entry {
   padding-bottom: 0;
 }
-ul {
-  list-style-type: none;
+
+
+.additional-duties-list {
+  padding-top: 10px;
+  font-weight: bold;
 }
-}
+
 /* Work Experience Styles */
 
 .work {
@@ -252,15 +292,14 @@ ul {
 }
 
 
-.additional-duties-list {
-  padding-top: 10px;
-  font-weight: bold;
-}
+
 .list {
   padding-top: 0;
   margin-top: 0;
   padding-bottom: 30px;
 }
+}
+
 
 /* Education Styles */
 
