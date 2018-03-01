@@ -231,10 +231,12 @@ ul {
     padding-bottom: 5px;
   }
 
-
+  .education {
+    background-color: #ceccce;
+   color: #4c4947;
 }
 
-
+}
 /* Main Content General */
 
 p {
@@ -246,38 +248,37 @@ h2 {
 }
 
 @media (min-width: 600px) {
-.content-wrap {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 60px 50px;
-  overflow: auto;
-}
+  .content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+  }
 
-.col-wide {
-  width: 70%;
-  float: left;
-  text-align: right;
-}
+  .col-wide {
+    width: 70%;
+    float: left;
+    text-align: right;
+  }
 
-.col-wide.edu {
-  text-align: justify;
-  text-align-last: start;
-}
+  .col-wide.edu {
+    text-align: justify;
+    text-align-last: start;
+  }
 
-.col-narrow {
-  vertical-align: top;
-  width: 30%;
-  float: left;
-}
+  .col-narrow {
+    vertical-align: top;
+    width: 30%;
+    float: left;
+  }
 
-.col-narrow h3 {
-  margin-top: 0;
-}
+  .col-narrow h3 {
+    margin-top: 0;
+  }
 
-#last-job-entry {
-  padding-bottom: 0;
-}
-
+  #last-job-entry {
+    padding-bottom: 0;
+  }
 
 .additional-duties-list {
   padding-top: 10px;
@@ -298,8 +299,8 @@ h2 {
   margin-top: 0;
   padding-bottom: 30px;
 }
-}
 
+}
 
 /* Education Styles */
 
@@ -311,8 +312,10 @@ h2 {
   display: block;
   color: #ceccce;
 
-    /* color: #4c4947; */
+
 }
+
+
 
 /* Footer Links */
 
