@@ -155,12 +155,6 @@ ul {
 
 }
 @media (max-width: 600px) {
-  :target:before {
-  content:"";
-  display:block;
-  height:90px; /* fixed header height*/
-  margin:-90px 0 0; /* negative fixed header height */
-  }
 
   .profile-img-file {
     width: auto;
@@ -175,7 +169,8 @@ ul {
   .profile-img-holder {
     width: 100%;
     padding-bottom: 20px;
-    padding-top: 60px;
+    padding-top: 0;
+    margin-top: -10px;
   }
 
   .header-text {
@@ -187,13 +182,14 @@ ul {
 
   .content-wrap {
     padding: 0;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     overflow: hidden;
   }
 
 .mobile-job-title {
   padding-left: 5px;
+  padding-bottom: 5px;
 }
 
 .mobile-paragraphs {
@@ -214,8 +210,15 @@ ul {
     color: #ceccce;
   }
 
-
-
+.mobile-nav-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+  .mobile-nav {
+    font-size: 0.8em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
   .list {
     padding-top: 0;
@@ -230,11 +233,6 @@ ul {
     font-weight: 700;
     padding-bottom: 5px;
   }
-
-  .education {
-    background-color: #ceccce;
-   color: #4c4947;
-}
 
 }
 /* Main Content General */
@@ -299,7 +297,6 @@ h2 {
   margin-top: 0;
   padding-bottom: 30px;
 }
-
 }
 
 /* Education Styles */
