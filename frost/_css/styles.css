@@ -43,7 +43,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0px;
-  z-index: 500
+  z-index: 500;
   background-color: #383938;
   padding-top: 5px;
   padding-bottom: 10px;
