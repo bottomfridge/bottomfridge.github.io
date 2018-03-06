@@ -38,6 +38,21 @@ body {
   margin: 0px;
 }
 
+.topnav {
+	font-family: 'Lato', sans-serif;
+	position: fixed;
+	text-align: center;
+	width: 960px;
+}
+
+.topnav a {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #FFFD10;
+	text-decoration: none;
+}
 .content-wrap {
   text-align: center;
   color: #FFFD10;
@@ -45,7 +60,7 @@ body {
   max-width: 950px;
   margin: 0 auto;
   padding: 60px 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content-wrap p:first-child {
@@ -56,17 +71,22 @@ body {
 .content-wrap p{
 	 text-transform: lowercase;
 }
+
 .icon {
-	margin-left: -80px;
 	max-width: 300px;
+	width: 90%;
+	margin: 0 auto;
+	
 }
 
 
 #coming {
   padding-top: 60px;
   font-size: 1em;
+  text-align: center;
 }
 
 #android {
   font-size: 2em;
+ 
 }
