@@ -48,22 +48,19 @@ body {
   overflow: auto;
 }
 
-.comingsoon {
-  width: 70%;
-}
-.comingsoon p:first-of-type {
-  margin-top: -30px;
+.content-wrap p:first-child {
+	  margin-top: -30px;
   text-transform: lowercase;
   font-size: 6em;
 }
-
+.content-wrap p{
+	 text-transform: lowercase;
+}
 .icon {
 	margin-left: -80px;
+	max-width: 300px;
 }
 
-.comingsoon p {
-    text-transform: lowercase;
-}
 
 #coming {
   padding-top: 60px;
