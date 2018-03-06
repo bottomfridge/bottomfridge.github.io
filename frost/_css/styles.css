@@ -35,40 +35,30 @@ https://www.sqlite.org/index.html
 
 body {
   background-color: #383938;
-  margin: 0;
+  margin: 0px;
 }
 
-.imagecontainer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -80px;
-}
-
-.icon {
-  display: block;
-  position: relative;
-left: 60px;
-}
 .content-wrap {
-  margin-top: 50px;
   text-align: center;
   color: #FFFD10;
   font-family: 'Lato', sans-serif;
-  width: 900px;
-  min-width: 900px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
 }
 
 .comingsoon {
   width: 70%;
-  z-index: 500;
 }
 .comingsoon p:first-of-type {
   margin-top: -30px;
   text-transform: lowercase;
   font-size: 6em;
+}
+
+.icon {
+	margin-left: -80px;
 }
 
 .comingsoon p {
