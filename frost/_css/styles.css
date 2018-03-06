@@ -1,0 +1,85 @@
+/*
+domain: : atchat.me
+
+Font Styles:
+
+373837 : grey
+FFF100 : yellow
+<color name="AtChatYellow">#FFFD10</color>
+<color name="AtChatDarkGrey">#424242</color>
+<color name="AtChatLightGrey">#616161</color>
+background of image: 393939
+sans-serif-medium
+
+Pages:
+About
+Homepage
+Contact
+
+Companies for About page:
+ ibm cloud: https://www.ibm.com/cloud/
+: spring framework: https://spring.io/
+: google firebase: https://firebase.google.com/
+ mongodb https://www.mongodb.com/
+https://www.android.com/
+https://www.sqlite.org/index.html
+
+ */
+
+ html {
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+body {
+  background-color: #383938;
+  margin: 0;
+}
+
+.imagecontainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+}
+
+.icon {
+  display: block;
+  position: relative;
+left: 60px;
+}
+.content-wrap {
+  margin-top: 50px;
+  text-align: center;
+  color: #FFFD10;
+  font-family: 'Lato', sans-serif;
+  width: 900px;
+  min-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.comingsoon {
+  width: 70%;
+  z-index: 500;
+}
+.comingsoon p:first-of-type {
+  margin-top: -30px;
+  text-transform: lowercase;
+  font-size: 6em;
+}
+
+.comingsoon p {
+    text-transform: lowercase;
+}
+
+#coming {
+  padding-top: 60px;
+  font-size: 1em;
+}
+
+#android {
+  font-size: 2em;
+}

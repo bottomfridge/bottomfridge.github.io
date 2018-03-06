@@ -1,0 +1,23 @@
+domain: : atchat.me
+
+Font Styles:
+
+373837 : grey
+FFF100 : yellow
+<color name="AtChatYellow">#FFFD10</color>
+<color name="AtChatDarkGrey">#424242</color>
+<color name="AtChatLightGrey">#616161</color>
+sans-serif-medium
+
+Pages:
+About
+Homepage
+Contact
+
+Companies for About page:
+ ibm cloud: https://www.ibm.com/cloud/
+: spring framework: https://spring.io/
+: google firebase: https://firebase.google.com/
+ mongodb https://www.mongodb.com/
+https://www.android.com/
+https://www.sqlite.org/index.html
