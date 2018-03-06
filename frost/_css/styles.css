@@ -39,19 +39,24 @@ body {
 }
 
 .topnav {
-	font-family: 'Lato', sans-serif;
-	position: fixed;
-	text-align: center;
-	width: 960px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 500
+  background-color: #383938;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #FFFD10;
 }
-
 .topnav a {
-	margin-left: auto;
-	margin-right: auto;
+	position: relative;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	color: #FFFD10;
 	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .content-wrap {
   text-align: center;
@@ -60,24 +65,30 @@ body {
   max-width: 950px;
   margin: 0 auto;
   padding: 60px 50px;
-  overflow: hidden;
+  overflow: auto;
 }
 
-.content-wrap p:first-child {
-	  margin-top: -30px;
-  text-transform: lowercase;
-  font-size: 6em;
+.imagecontainer {
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
 }
-.content-wrap p{
-	 text-transform: lowercase;
-}
-
 .icon {
 	max-width: 300px;
+	height: auto;
 	width: 90%;
 	margin: 0 auto;
-	
 }
+.content-wrap p:first-child {
+	margin-top: -30px;
+	text-transform: lowercase;
+	font-size: 6em;
+}
+.content-wrap p{
+	text-transform: lowercase;
+}
+
 
 
 #coming {
