@@ -64,7 +64,7 @@ footer {
 .topnav a {
 	position: relative;
 	text-align: center;
-	color: #FFFD10;
+	color: white;
   background-color: #383938;
 	text-decoration: none;
 	padding: 5px 30px;
@@ -74,7 +74,7 @@ footer {
 .content-wrap {
   text-align: center;
   background-color: #383938;
-  color: #CECFC7;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
   max-width: 950px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ h1 {
 .slideshowcontainer {
   display: block;
   position: relative;
-  left: 20px;
+  left: 50px;
   max-width: 950px;
   width: 90%;
   height: auto;
