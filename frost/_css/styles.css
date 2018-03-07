@@ -3,12 +3,11 @@ domain: : atchat.me
 
 Font Styles:
 
-373837 : grey
-FFF100 : yellow
-<color name="AtChatYellow">#FFFD10</color>
-<color name="AtChatDarkGrey">#424242</color>
-<color name="AtChatLightGrey">#616161</color>
-background of image: 393939
+lightgrey: 616161
+darkgrey: 383938
+yellow: FFFD10
+tuscan: E1D89F
+Lightestgrey: CECFC7
 sans-serif-medium
 
 Pages:
@@ -34,37 +33,52 @@ https://www.sqlite.org/index.html
  }
 
 body {
-  background-color: #383938;
+  background-color: #616161;
   margin: 0px;
 }
 
+header {
+  padding-top: 100px;
+  background-color: #383938;
+  max-width: 950px;
+  margin: 0 auto;
+  overflow: auto;
+}
+footer {
+  border-bottom: 10px solid #FFFD10;
+  max-width: 950px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-top: 0;
+}
 .topnav {
   text-align: center;
   width: 100%;
   position: fixed;
   top: 0px;
   z-index: 500;
-  background-color: #383938;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  border-bottom: 5px solid #FFFD10;
+  background-color: #FFFD10;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .topnav a {
 	position: relative;
-	font-family: 'Lato', sans-serif;
 	text-align: center;
 	color: #FFFD10;
+  background-color: #383938;
 	text-decoration: none;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 10px 30px;
+  margin: 0 60px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .content-wrap {
   text-align: center;
-  color: #FFFD10;
-  font-family: 'Lato', sans-serif;
+  background-color: #383938;
+  color: #CECFC7;
+  font-family: 'Titillium Web', sans-serif;
   max-width: 950px;
   margin: 0 auto;
-  padding: 60px 50px;
+  padding: 30px 50px;
   overflow: auto;
 }
 
@@ -73,6 +87,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
+  margin-left: 30px;
 }
 .icon {
 	max-width: 300px;
@@ -80,24 +95,35 @@ body {
 	width: 90%;
 	margin: 0 auto;
 }
-.content-wrap p:first-child {
-	margin-top: -30px;
-	text-transform: lowercase;
-	font-size: 6em;
+.screens {
+	max-width: 300px;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
 }
-.content-wrap p{
-	text-transform: lowercase;
+.leftcolumn {
+  width: 60%;
+  float: left;
 }
 
+.rightcolumn {
+  width: 40%;
+  float: right;
+}
 
+.atchatcontent {
+  padding-top: 20px;
+}
+h1 {
+  color: #FFFD10;
+}
 
 #coming {
-  padding-top: 60px;
+  padding-top: 0px;
   font-size: 1em;
   text-align: center;
 }
 
 #android {
   font-size: 2em;
- 
 }
