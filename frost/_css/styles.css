@@ -33,20 +33,20 @@ https://www.sqlite.org/index.html
  }
 
 body {
-  background-color: #616161;
+  background-color: #383938;
   margin: 0px;
 }
 
 header {
   padding-top: 80px;
   background-color: #383938;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
   overflow: auto;
 }
 footer {
   border-bottom: 10px solid #FFFD10;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
   overflow: auto;
   padding-top: 0;
@@ -57,7 +57,8 @@ footer {
   position: fixed;
   top: 0px;
   z-index: 500;
-  background-color: #FFFD10;
+  background-color: #383938;
+  border-bottom: 2px solid #FFFD10;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -76,14 +77,14 @@ footer {
   background-color: #383938;
   color: white;
   font-family: 'Titillium Web', sans-serif;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 30px 50px;
+  padding: 60px 50px;
   overflow: auto;
 }
 
 .imagecontainer {
-	max-width: 950px;
+	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
