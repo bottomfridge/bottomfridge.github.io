@@ -172,10 +172,12 @@ h1 {
   height: 420px;
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 .featuresize {
   height: 420px;
+
 }
 .equalcolumnright {
   width: 50%;
@@ -191,6 +193,7 @@ h1 {
   margin-bottom: 0px;
 }
 
+
 .featuresheaderimg {
   padding-top: 20px;
   text-align: center;
@@ -199,4 +202,25 @@ h1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+.featurepiccontainer {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featurepics {
+  max-width: 300px;
+}
+
+.contactcontent p {
+  text-align: left;
+  margin-left: 20%;
+}
+
+.playbadge {
+  max-width: 25%;
+  padding-bottom: 0;
+  margin-bottom: -50px;
 }
