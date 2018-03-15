@@ -52,6 +52,7 @@ footer {
   padding-top: 0;
 }
 .topnav {
+
   text-align: center;
   width: 100%;
   position: fixed;
@@ -59,18 +60,22 @@ footer {
   z-index: 500;
   background-color: #383938;
   border-bottom: 2px solid #FFFD10;
-  padding-top: 15px;
   padding-bottom: 15px;
+  height: 70px;
 }
 .topnav a {
 	position: relative;
 	text-align: center;
 	color: white;
-  background-color: #383938;
+  /* background-color: #383938; */
 	text-decoration: none;
-	padding: 5px 30px;
-  margin: 0 60px;
+	padding: 0px 30px;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: 'Titillium Web', sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 4.2;
 }
 .content-wrap {
   text-align: center;
@@ -125,9 +130,6 @@ h1 {
   text-align: center;
 }
 
-#android {
-  font-size: 2em;
-}
 
 .slideshowcontainer {
   display: block;
@@ -169,25 +171,42 @@ h1 {
 }
 
 .featurescontent {
-  height: 420px;
+  height: 320px;
+  width: 50%;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
+.featurescontent h2 {
+  margin: 0 auto;
+  width: 300px;
+}
 .featuresize {
-  height: 420px;
+  height: 320px;
 
 }
 .equalcolumnright {
   width: 50%;
   float: right;
+  height: 320px;
 }
 .equalcolumnleft {
   width: 50%;
   float: left;
+  height: 320px;
 }
 
+.equalcolumnright_contact {
+  width: 50%;
+  float: right;
+  height: 420px;
+}
+.equalcolumnleft_contact {
+  width: 50%;
+  float: left;
+  height: 420px;
+}
 .featuresheading {
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -204,7 +223,7 @@ h1 {
   margin-left: auto;
 }
 .featurepiccontainer {
-  height: 420px;
+  height: 320px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -223,4 +242,44 @@ h1 {
   max-width: 25%;
   padding-bottom: 0;
   margin-bottom: -50px;
+}
+
+.playbadge_header {
+  max-width: 170px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -5px;
+  padding: 0;
+}
+
+#playbadge_header {
+  float: top;
+  position: fixed;
+  top: 5px;
+  right: 1%;
+  margin: 0;
+  padding: 0;
+  max-height: 1px;
+  z-index: 501;
+}
+#nav-chat {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#nav-contact {
+  padding-right: 0;
+  margin-right: 0;
+}
+.mission-statement p {
+  width: 80%;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 auto;
+}
+
+.contact-logo-big {
+  max-width: 90%;
+  height: auto;
 }
