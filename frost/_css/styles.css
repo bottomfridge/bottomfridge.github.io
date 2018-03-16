@@ -379,7 +379,8 @@ h1 {
       background-color: #383938;
       color: white;
       font-family: 'Titillium Web', sans-serif;
-      width: 100%;
+	max-width: 95%;
+      width: 95%;
       margin: 0 auto;
       padding: 20px 0px;
       overflow: auto;
