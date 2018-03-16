@@ -216,13 +216,6 @@ h1 {
   padding: 0;
 }
 
-.mission-statement p {
-  width: 80%;
-  text-align: justify;
-  text-align-last: center;
-  margin: 0 auto;
-}
-
 .contact-logo-big {
   max-width: 90%;
   height: auto;
@@ -296,6 +289,12 @@ h1 {
   #downloadwrap {
     padding-bottom: 100px;
   }
+.mission-statement p {
+  width: 80%;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 auto;
+}
 }
 
 @media only screen and (max-width: 799px) { /* mobile break point */
@@ -385,7 +384,12 @@ h1 {
       padding: 20px 0px;
       overflow: auto;
     }
-
+.mission-statement p {
+  width: 95%;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 auto;
+}
 }
 
 @media only screen and (max-width: 350px) { /* super small break point */
