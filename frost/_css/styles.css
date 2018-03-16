@@ -293,6 +293,9 @@ h1 {
     padding: 60px 50px;
     overflow: auto;
   }
+  #downloadwrap {
+    padding-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 799px) { /* mobile break point */
@@ -381,6 +384,7 @@ h1 {
       padding: 20px 0px;
       overflow: auto;
     }
+
 }
 
 @media only screen and (max-width: 350px) { /* super small break point */
