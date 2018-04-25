@@ -62,6 +62,10 @@ header {
 	overflow: hidden;
   margin-left: 30px;
 }
+
+.mail {
+  color: #FFFD10;
+}
 .icon {
 	max-width: 300px;
 	height: auto;
